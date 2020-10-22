@@ -7,7 +7,9 @@ You can retrieve all actors, or a specific actor by their id.
 ## Postman calls:
 
 ###### localhost:8080/actor/all
+*Get all actors
 ###### localhost:8080/actor/{id}
+*Get a specific actor by id
 ###### localhost:8080/actor/add
 ###### localhost:8080/actor/replace/{id}
 ###### localhost:8080/actor/update/{id}
