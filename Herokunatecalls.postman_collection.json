@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "f302c546-a52c-485e-8794-a101679afdef",
+		"name": "Herokunatecalls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/delete/1",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/update/2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page:\"\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/update/2",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"update",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/replace/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page:\"\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/replace/2",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"replace",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\":\"Pierce\",\r\n\"lastName\":\"Brosnan\",\r\n\"dateOfBirth\":\"19530516\",\r\n\"urlto_imdb_page\":\"https://www.imdb.com/name/nm0000112/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/add",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/1",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://herokunate-ypp.herokuapp.com/actor/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://herokunate-ypp.herokuapp.com/actor/3",
+					"protocol": "https",
+					"host": [
+						"herokunate-ypp",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actor",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
