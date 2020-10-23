@@ -6,13 +6,13 @@ You can retrieve all actors, or a specific actor by their id.
 
 ## API calls:
 
-###### https://herokunate-ypp.herokuapp.com/actor/all
+###### /actor/all
 *Get all actors
-###### https://herokunate-ypp.herokuapp.com/actor/{id}
+###### /actor/{id}
 *Get a specific actor by id
-###### https://herokunate-ypp.herokuapp.com/actor/add
-###### https://herokunate-ypp.herokuapp.com/actor/replace/{id}
-###### https://herokunate-ypp.herokuapp.com/actor/update/{id}
-###### https://herokunate-ypp.herokuapp.com/actor/delete/{id}
+###### /actor/add
+###### /actor/replace/{id}
+###### /actor/update/{id}
+###### /actor/delete/{id}
 
 Heroku link https://herokunate-ypp.herokuapp.com/
