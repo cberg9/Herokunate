@@ -12,7 +12,9 @@ You can retrieve all actors, or a specific actor by their id.
 *Get a specific actor by id
 ###### /actor/add
 ###### /actor/replace/{id}
+*Put
 ###### /actor/update/{id}
+*Patch
 ###### /actor/delete/{id}
 
 Heroku link https://herokunate-ypp.herokuapp.com/
