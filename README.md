@@ -4,7 +4,7 @@ This API can create, read, update and delete actors from a Postgres database usi
 An actor has some simple information stored.
 You can retrieve all actors, or a specific actor by their id.
 
-## Postman calls:
+## API calls:
 
 ###### https://herokunate-ypp.herokuapp.com/actor/all
 *Get all actors
