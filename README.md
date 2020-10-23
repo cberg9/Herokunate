@@ -25,4 +25,4 @@ You can retrieve all actors, or a specific actor by their id.
 
 
 
-Heroku link https://herokunate-ypp.herokuapp.com/
+Heroku link: https://herokunate-ypp.herokuapp.com/
