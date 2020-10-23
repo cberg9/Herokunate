@@ -6,13 +6,13 @@ You can retrieve all actors, or a specific actor by their id.
 
 ## Postman calls:
 
-###### localhost:8080/actor/all
+###### https://herokunate-ypp.herokuapp.com/actor/all
 *Get all actors
-###### localhost:8080/actor/{id}
+###### https://herokunate-ypp.herokuapp.com/actor/{id}
 *Get a specific actor by id
-###### localhost:8080/actor/add
-###### localhost:8080/actor/replace/{id}
-###### localhost:8080/actor/update/{id}
-###### localhost:8080/actor/delete/{id}
+###### https://herokunate-ypp.herokuapp.com/actor/add
+###### https://herokunate-ypp.herokuapp.com/actor/replace/{id}
+###### https://herokunate-ypp.herokuapp.com/actor/update/{id}
+###### https://herokunate-ypp.herokuapp.com/actor/delete/{id}
 
 Heroku link https://herokunate-ypp.herokuapp.com/
