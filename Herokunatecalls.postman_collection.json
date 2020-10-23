@@ -38,7 +38,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page:\"\"\r\n}\r\n"
+					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page\":\"\"\r\n}\r\n"
 				},
 				"url": {
 					"raw": "https://herokunate-ypp.herokuapp.com/actor/update/2",
@@ -64,7 +64,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page:\"\"\r\n}\r\n"
+					"raw": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"\",\r\n\"dateOfBirth\":\"\",\r\n\"urlto_imdb_page\":\"\"\r\n}\r\n"
 				},
 				"url": {
 					"raw": "https://herokunate-ypp.herokuapp.com/actor/replace/2",
